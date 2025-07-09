@@ -1,0 +1,157 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  color: #222;
+  background: #fff;
+  line-height: 1.6;
+}
+
+a {
+  text-decoration: none;
+  color: #008060;
+}
+
+
+.hero {
+  background: linear-gradient(to bottom, #fceabb, #f8b500);
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1100px;
+  margin: 0 auto 30px;
+  font-size: 1.2rem;
+  color: #333;
+}
+
+.logo {
+  font-weight: bold;
+}
+
+.btn-primary,
+.btn-secondary {
+  display: inline-block;
+  padding: 12px 25px;
+  margin: 10px 0;
+  border-radius: 30px;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+.btn-primary {
+  background-color: #008060;
+  color: white;
+}
+
+.btn-secondary {
+  background-color: #e0f7f1;
+  color: #008060;
+  border: 2px solid #008060;
+}
+
+.btn-primary:hover,
+.btn-secondary:hover {
+  transform: scale(1.05);
+}
+
+.guarantee {
+  font-size: 0.9rem;
+  color: #333;
+}
+
+
+.features {
+  padding: 60px 20px;
+}
+
+.feature {
+  display: flex;
+  max-width: 1100px;
+  margin: 40px auto;
+  gap: 30px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.feature.reverse {
+  flex-direction: row-reverse;
+}
+
+.feature img {
+  width: 300px;
+  height: auto;
+  border-radius: 10px;
+}
+
+.feature div {
+  flex: 1;
+  min-width: 300px;
+}
+
+
+.advantages {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+  padding: 60px 20px;
+  background-color: #fafafa;
+  text-align: center;
+}
+
+.adv-item {
+  width: 100%;
+  max-width: 600px;
+  padding: 30px;
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s ease;
+}
+
+.adv-item:hover {
+  transform: translateY(-5px);
+}
+
+.adv-item img {
+  margin-bottom: 20px;
+  width: 180px;
+  height: 120px;
+  object-fit: contain;
+}
+
+
+.map-section {
+  background-color: #ffeeee;
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.map-section img {
+  max-width: 90%;
+  margin: 20px 0;
+}
+
+.stats {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  font-size: 1.2rem;
+  margin: 20px 0;
+  flex-wrap: wrap;
+}
+
+footer {
+  background-color: #222;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
